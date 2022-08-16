@@ -20,7 +20,7 @@ main {
 
 /* Image and Logo */
 .image-section {
-  background: url(/assets/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
+  background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   align-content: center;
@@ -71,4 +71,17 @@ main {
   flex: 6;
   display: flex;
   flex-direction: column;
+  background-color: #f6f6f6;
+}
+
+.form-section h2 {
+  font-size: 1.4rem;
+  padding: 2.5rem;
+  max-width: 75%;
+}
+
+form {
+  background-color: #fff;
+  width: 80%;
+  padding: 1rem;
 }
