@@ -74,14 +74,75 @@ main {
   background-color: #f6f6f6;
 }
 
-.form-section h2 {
-  font-size: 1.4rem;
+/* form text */
+.form-section h3 {
+  margin-top: 15vh;
   padding: 2.5rem;
-  max-width: 75%;
+  font-size: 1.4rem;
+  max-width: 85%;
 }
 
-form {
+.form {
   background-color: #fff;
-  width: 80%;
-  padding: 1rem;
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+}
+
+/* form CTA */
+.form h2 {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+/* form grid */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: start;
+  gap: 2rem 8rem;
+  padding-bottom: 2rem;
+}
+
+.form-label {
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.form-input {
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 1rem;
+  height: 2rem;
+  width: 250px;
+  padding: 5px 10px;
+}
+
+.form-input:focus {
+  border: 1px solid blue;
+  outline: none;
+}
+
+
+/* form button */
+.form-button {
+  padding: 1rem 2.5rem
+}
+
+.btn {
+  background-color: #596D48;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 3.5rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+.form-button a {
+  color: #596D48;
+  font-weight: 800;
 }
