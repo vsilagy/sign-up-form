@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Odin sign-up</title>
+    <script src="main.js" defer></script>
+    <title>Odin Sign-up Form</title>
   </head>
   <body>
     <main>
@@ -40,62 +41,55 @@
           <h2>Let's do this!</h2>
           <div class="form-container">
           <div class="form-div">
-            <div class="first-name">
-              <label for="first-name" class="form-label">First Name</label>
+            <div>
+              <label for="first-name">First Name</label>
               <input
                 type="text"
                 id="first-name"
-                class="form-input"
-                required
               />
             </div>
-            <div class="last-name">
-              <label for="last-name" class="form-label">Last Name</label>
+            <div>
+              <label for="last-name">Last Name</label>
               <input
                 type="text"
                 id="last-name"
-                class="form-input"
-                required
               />
             </div>
           </div>
           <div class="form-div">
-            <div class="email">
-              <label for="email" class="form-label">Email</label>
+            <div>
+              <label for="email">Email</label>
               <input
-                type="text"
+                type="email"
                 id="email"
-                class="form-input"
-                required
               />
             </div>
-            <div class="phone">
-              <label for="phone" class="form-label">Phone Number</label>
+            <div>
+              <label for="phone">Phone Number</label>
               <input
-                type="text"
+                type="tel"
                 id="phone"
-                class="form-input"
-                required
               />
             </div>
           </div>
           <div class="form-div">
-            <div class="password">
-              <label for="password" class="form-label">Password</label>
+            <div class="password-section">
+              <label for="password">Password</label>
               <input
-                type="text"
+                type="password"
                 id="password"
-                class="form-input"
+                class="error"
                 required
               />
+              <p class="error-message">* Passwords do not match</p>
             </div>
             <div class="confirm-password">
-              <label for="confirm-password" class="form-label">Confirm Password</label
+              <label for="confirm-password">Confirm Password</label
               >
               <input
-                type="text"
+                type="password"
                 id="confirm-password"
-                class="form-input"
+                class="error"
                 required
               />
             </div>

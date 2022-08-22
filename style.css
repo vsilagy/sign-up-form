@@ -109,7 +109,7 @@ main {
   padding-left: 10%;
 }
 
-.form-label {
+label {
   display: block;
   font-size: .7rem;
   font-weight: 600;
@@ -118,21 +118,30 @@ main {
   padding-bottom: 4px;
 }
 
-.form-input {
+input {
   display: block;
   border: 1px solid #E5E7EB;
-  border-radius: 3px;
+  border-radius: 4px;
   font-size: 1rem;
   height: 2rem;
   width: 250px;
   padding: 5px 10px;
 }
 
-.form-input:focus {
+input:focus {
   border: 1px solid blue;
   outline: none;
 }
 
+.error,
+input:invalid {
+  border: 1px solid red;
+}
+
+.error-message {
+  font-size: 12px;
+  color: red;
+}
 /* form button */
 .form-button {
   padding: 1rem 2.5rem;
@@ -148,6 +157,10 @@ main {
   padding: 1rem 3.5rem;
   margin: 1.5rem 0;
   cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .8;
 }
 
 .form-button a {
