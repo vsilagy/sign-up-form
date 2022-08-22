@@ -54,7 +54,7 @@ main {
 
 .image-details {
   font-size: 0.8rem;
-  font-weight: 800;
+  font-weight: 500;
   color: #f3f3f3;
 }
 
@@ -76,7 +76,7 @@ main {
 
 /* form text */
 .form-info {
-  margin: 15vh 2.5rem 2.5rem 2.5rem;
+  margin: 15vh 2.5rem 2.5rem;
   max-width: 70%;
 }
 
@@ -88,13 +88,21 @@ main {
 /* form CTA */
 .form h2 {
   font-size: 1.4rem;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
+  margin-left: 2.5rem;
 }
 
-/* form grid */
+/* form container*/
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2.5rem;
+  margin-left: 2.5rem;
+}
 .form-div {
   display: flex;
-  width: 70%;
+  max-width: 70%;
 }
 
 .form-div > :last-child {
@@ -102,14 +110,17 @@ main {
 }
 
 .form-label {
+  display: block;
   font-size: .7rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  padding-bottom: 4px;
 }
 
 .form-input {
   display: block;
-  border: 1px solid lightgrey;
+  border: 1px solid #E5E7EB;
   border-radius: 3px;
   font-size: 1rem;
   height: 2rem;
@@ -121,7 +132,6 @@ main {
   border: 1px solid blue;
   outline: none;
 }
-
 
 /* form button */
 .form-button {
