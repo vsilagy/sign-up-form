@@ -147,6 +147,7 @@ input:invalid {
 /* form button */
 .form-button {
   padding: 1rem 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .btn {
@@ -173,21 +174,21 @@ input:invalid {
 
 /* footer */
 .github {
-  position: fixed;
-  bottom: 1rem;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 10px;
+  gap: 8px;
+  margin-top: auto;
+  margin-bottom: 1rem;
   margin-left: 2.5rem;
 }
 
 .github p {
-  font-size: .9rem;
+  font-family: "Norse";
+  font-size: 1.2rem;
 }
 
 .github-mark {
-  height: 1em;
+  height: 1.2em;
   transition: transform 0.4s ease-in-out;
 }
 
