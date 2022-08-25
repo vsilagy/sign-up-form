@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     <title>Odin Sign-up Form</title>
   </head>
   <body>
     <main>
-      <div class="image-section">
+      <div class="left-col">
         <div class="image-logo">
           <img
             src="./assets/odin-lined.png"
@@ -19,16 +20,16 @@
           />
           <p class="odin-text">Odin</p>
         </div>
-        <div class="image-details">
-          <p class="img-info">
+        <div class="author-wrapper">
+          <p class="author">
             Photo by
             <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
             <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
           </p>
         </div>
       </div>
-      <div class="form-section">
-        <div class="form-info">
+      <div class="right-col">
+        <div class="info">
           <p>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams.<br /> Sign up
@@ -43,7 +44,7 @@
         <form action="" class="form">
           <h2>Let's do this!</h2>
           <div class="form-container">
-            <div class="form-div">
+            <div class="form-input">
               <div>
                 <label for="first-name">First Name</label>
                 <input
@@ -59,7 +60,7 @@
                 />
               </div>
             </div>
-            <div class="form-div">
+            <div class="form-input">
               <div>
                 <label for="email">Email</label>
                 <input
@@ -75,8 +76,8 @@
                 />
               </div>
             </div>
-            <div class="form-div">
-              <div class="password-section">
+            <div class="form-input">
+              <div>
                 <label for="password">Password</label>
                 <input
                   type="password"
@@ -101,11 +102,11 @@
           </div>
           
         </form>
-        <div class="form-button">
+        <div class="btn-wrapper">
           <button class="btn" type="submit">Create Account</button>
           <p>Already have an account ? <a href="http://">Log in</a></p>
         </div>
-        <div class="github">
+        <div class="footer">
           <p>vsilagy</p>
           <a href="http://github.com/vsilagy" target="_blank">
             <img

@@ -5,8 +5,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 main {
@@ -19,7 +17,7 @@ main {
 }
 
 /* Image and Logo */
-.image-section {
+.left-col {
   background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
   background-size: cover;
   display: flex;
@@ -52,22 +50,22 @@ main {
   font-size: 6rem;
 }
 
-.image-details {
+.author-wrapper {
   font-size: 0.8rem;
   font-weight: 500;
   color: #f3f3f3;
 }
 
-.image-details p {
+.author-wrapper p {
   margin-bottom: 1rem;
 }
 
-.image-details a {
+.author a {
   color: inherit;
 }
 
 /* form */
-.form-section {
+.right-col {
   flex: 6;
   display: flex;
   flex-direction: column;
@@ -75,7 +73,7 @@ main {
 }
 
 /* form text */
-.form-info {
+.info {
   margin: 15vh 2.5rem 2.5rem;
   max-width: 80%;
   font-size: 1.3rem;
@@ -103,12 +101,12 @@ main {
   margin-bottom: 2.5rem;
   margin-left: 2.5rem;
 }
-.form-div {
+.form-input {
   display: flex;
   max-width: 70%;
 }
 
-.form-div > :last-child {
+.form-input > :last-child {
   padding-left: 10%;
 }
 
@@ -145,7 +143,7 @@ input:invalid {
   color: red;
 }
 /* form button */
-.form-button {
+.btn-wrapper {
   padding: 1rem 2.5rem;
   margin-bottom: 2rem;
 }
@@ -166,14 +164,14 @@ input:invalid {
   opacity: .8;
 }
 
-.form-button a {
+.btn-wrapper a {
   color: #596D48;
   font-size: 1.2rem;
   font-weight: 800;
 }
 
 /* footer */
-.github {
+.footer {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -182,7 +180,7 @@ input:invalid {
   margin-left: 2.5rem;
 }
 
-.github p {
+.footer p {
   font-family: "Norse";
   font-size: 1.2rem;
 }
