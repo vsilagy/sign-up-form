@@ -8,7 +8,7 @@
 }
 
 main {
-  font-family: sans-serif;
+  font-family: 'Roboto',sans-serif;
   background-color: #fff;
   width: 100vw;
   height: 100vh;
@@ -77,7 +77,7 @@ main {
   margin: 16vh 2.5rem 2.5rem;
   max-width: 80%;
   font-size: 1.4rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -94,7 +94,7 @@ main {
 /* form CTA */
 .form h2 {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 500;
   padding: 1.5rem 0;
   margin-left: 2.5rem;
 }
@@ -104,7 +104,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   margin-left: 2.5rem;
 }
 .form-input {
@@ -114,13 +114,14 @@ main {
 
 .form-input > :last-child {
   padding-left: 10%;
+
 }
 
 label {
   display: block;
   font-size: .7rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding-bottom: 4px;
 }
 
