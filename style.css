@@ -8,7 +8,7 @@
 }
 
 main {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   background-color: #fff;
   width: 100vw;
   height: 100vh;
@@ -31,7 +31,7 @@ main {
 
 .image-logo {
   width: 100%;
-  margin-top: 25vh;
+  margin-top: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ main {
 }
 
 .odin-logo {
-  height: 10rem;
+  height: 150px;
   padding: 1rem;
   padding-right: 0;
 }
@@ -66,7 +66,7 @@ main {
 
 /* form */
 .right-col {
-  flex: 6;
+  flex: 7;
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
@@ -74,21 +74,27 @@ main {
 
 /* form text */
 .info {
-  margin: 15vh 2.5rem 2.5rem;
+  margin: 16vh 2.5rem 2.5rem;
   max-width: 80%;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
+  line-height: 1.2;
+}
+
+.info em {
+  font-style: italic;
 }
 
 .form {
   background-color: #fff;
   margin-top: .8rem;
-  box-shadow: 5px 5px 5px 1px #E5E7EB;
+  box-shadow: 4px 4px 4px 1px #d6d8db;
 }
 
 /* form CTA */
 .form h2 {
   font-size: 1.4rem;
+  font-weight: 700;
   padding: 1.5rem 0;
   margin-left: 2.5rem;
 }
@@ -114,7 +120,7 @@ label {
   display: block;
   font-size: .7rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding-bottom: 4px;
 }
 
@@ -168,28 +174,4 @@ input:invalid {
   color: #596D48;
   font-size: 1.2rem;
   font-weight: 800;
-}
-
-/* footer */
-.footer {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: auto;
-  margin-bottom: 1rem;
-  margin-left: 2.5rem;
-}
-
-.footer p {
-  font-family: "Norse";
-  font-size: 1.2rem;
-}
-
-.github-mark {
-  height: 1.2em;
-  transition: transform 0.4s ease-in-out;
-}
-
-.github-mark:hover {
-  transform: rotateY(0.5turn) scale(1.4);
 }
