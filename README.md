@@ -6,7 +6,12 @@
 
 ### Objectives:
 
-- build a sign-up-form following the design file
+- build a sign-up-form following the assignment design
+
+##### Assignment Design
 
 ![sign-up-form](./assets/sign-up-form.png)
+
+##### My Version
+
 ![screenshot](./assets/screenshot.png)
