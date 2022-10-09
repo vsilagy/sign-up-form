@@ -2,20 +2,19 @@
   font-family: "norse";
   src: url("./assets/Norse-Bold.otf");
 }
-
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-
 main {
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
   width: 100vw;
   height: 100vh;
   display: flex;
   overflow: hidden;
 }
-
 /* Image and Logo */
 .left-col {
   background: url(./assets/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
@@ -28,7 +27,6 @@ main {
   flex: 4;
   height: 100vh;
 }
-
 .image-logo {
   width: 100%;
   margin-top: 20vh;
@@ -37,30 +35,25 @@ main {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .odin-logo {
   height: 150px;
   padding: 1em;
   padding-right: 0;
 }
-
 .odin-text {
   color: #f3f3f3;
   font-family: "Norse";
   font-size: 6rem;
 }
-
 .author-wrapper p {
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 400;
   color: #f3f3f3;
   margin-bottom: 1em;
 }
-
 .author a {
   color: inherit;
 }
-
 /* form */
 .right-col {
   flex: 7;
@@ -68,7 +61,6 @@ main {
   flex-direction: column;
   background-color: #f6f6f6;
 }
-
 /* form text */
 .info {
   margin: 16vh 2em 1em;
@@ -77,17 +69,14 @@ main {
   font-weight: 500;
   line-height: 1.2;
 }
-
 .info em {
   font-style: italic;
 }
-
 .form {
   background-color: #fff;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   box-shadow: 4px 4px 4px 1px #d6d8db;
 }
-
 /* form CTA */
 .form h2 {
   font-size: 1.5rem;
@@ -95,7 +84,6 @@ main {
   padding: 1em 0;
   margin-left: 2em;
 }
-
 /* form container*/
 .form-container {
   display: flex;
@@ -110,46 +98,40 @@ main {
   max-width: 70%;
   gap: 4em;
 }
-
 label {
   display: block;
-  font-size: .75rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  padding-bottom: .25em;
+  padding-bottom: 0.25em;
 }
-
 input {
   display: block;
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   border-radius: 4px;
   font-size: 1rem;
   height: 1.8em;
   max-width: 285px;
-  padding: .375em .625em;
+  padding: 0.375em 0.625em;
 }
-
 input:focus {
   border: 1px solid blue;
   outline: none;
 }
-
 .error,
 input:invalid {
   border: 1px solid red;
 }
-
 .error-message {
-  font-size: .75rem;
+  font-size: 0.75rem;
   color: red;
 }
 /* form button */
 .btn-wrapper {
   padding: 3em;
 }
-
 .btn {
-  background-color: #596D48;
+  background-color: #596d48;
   color: #fff;
   font-size: 1rem;
   font-weight: 800;
@@ -159,25 +141,20 @@ input:invalid {
   margin-bottom: 2em;
   cursor: pointer;
 }
-
 .btn:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
-
 .btn-wrapper a {
-  color: #596D48;
+  color: #596d48;
   font-size: 1.2rem;
   font-weight: 800;
 }
-
 @media (max-width: 750px) {
   .form-input {
     flex-direction: column;
     gap: 1em;
   }
-
   label {
-    font-size: .625rem;
+    font-size: 0.625rem;
   }
-
 }
